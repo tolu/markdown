@@ -2,24 +2,6 @@
 
 namespace An.Example
 {
-	public class MyController : Controller
-	{
-		public async Task<ActionResult> MyRequest(string id)
-		{
-			var accessToken = GetCurrentUserAccessToken();
-			var json = await ApiClient.Fetch<EpisodeVm>($"mediaelement/{id}", accessToken);
-			return Json(json);
-		}
-
-		private string GetCurrentUserAccessToken()
-		{
-			var currentUser = IoC.UserProvider().GetCurrentUser();
-			return currentUser == null
-				? string.Empty
-				: currentUser.AccessToken.Raw;
-		}
-	}
-
 	public class ApiClient
 	{
 		private static readonly HttpClient Client;
@@ -79,6 +61,24 @@ namespace An.Example
 			}
 
 			return request;
+		}
+	}
+  
+  public class ExampleController : Controller
+	{
+		public async Task<ActionResult> ExampleRequest(string id)
+		{
+			var accessToken = GetCurrentUserAccessToken();
+			var json = await ApiClient.Fetch<EpisodeVm>($"mediaelement/{id}", accessToken);
+			return Json(json);
+		}
+
+		private string GetCurrentUserAccessToken()
+		{
+			var currentUser = IoC.UserProvider().GetCurrentUser();
+			return currentUser == null
+				? string.Empty
+				: currentUser.AccessToken.Raw;
 		}
 	}
 }
