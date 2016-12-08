@@ -37,6 +37,9 @@ And in action:
 
 ![alt text for tobias avatar](https://avatars.githubusercontent.com/u/658586?s=150)
 
+### things to read
+* [calendar.perfplanet.com](http://calendar.perfplanet.com/2016/)
+
 ### repos to try out
 * [morpdom](https://github.com/patrick-steele-idem/morphdom)
 * [inferno](https://github.com/trueadm/inferno)
