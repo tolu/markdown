@@ -7,11 +7,11 @@ Just a collection of markdown files ranging from random notes to useful blabber.
 [`<details>` on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details)
 
 Example:  
-```
+```html
 <details>
   <summary>This is the header</summary>
   And here is the expandable content!
-</deatils>
+</details>
 ```
 And in action: 
 <details>
