@@ -38,5 +38,6 @@ And in action:
 ![alt text for tobias avatar](https://avatars.githubusercontent.com/u/658586?s=150)
 
 ### repos to try out
-* https://github.com/patrick-steele-idem/morphdom
-* https://github.com/trueadm/inferno
+* [morpdom](https://github.com/patrick-steele-idem/morphdom)
+* [inferno](https://github.com/trueadm/inferno)
+* [next.js](https://github.com/zeit/next.js)
