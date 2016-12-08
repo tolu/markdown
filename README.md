@@ -41,3 +41,4 @@ And in action:
 * [morpdom](https://github.com/patrick-steele-idem/morphdom)
 * [inferno](https://github.com/trueadm/inferno)
 * [next.js](https://github.com/zeit/next.js)
+* [gatsby](https://github.com/gatsbyjs/gatsby)
