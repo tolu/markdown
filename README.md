@@ -16,6 +16,7 @@ Example:
 And in action: 
 <details>
   <summary>Summary header (click me!)</summary>
+  
   > The HTML `<details>` element is used as a disclosure widget from which the user can retrieve additional information.
   
   ```js
